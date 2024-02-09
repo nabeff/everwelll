@@ -1,0 +1,25 @@
+.container-blog{
+    background-color: #EAEAEA;
+    border-radius: 5rem;
+    margin: 5rem;
+}
+
+.content_container{
+    align-items: start;
+}
+.grid-2{
+        grid-template-columns: repeat(2, 50%);     
+    
+}
+
+@media screen and (max-width: 1310px){
+    .grid-2{
+        grid-template-columns: repeat(1, 1fr); 
+            
+    }
+    .container-blog{
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+}

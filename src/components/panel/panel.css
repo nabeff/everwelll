@@ -1,0 +1,74 @@
+#Panel {
+    height: 100%;
+  }
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(249,229,141);
+    background: linear-gradient(180deg, rgba(249,229,141,1) 0%, rgba(255,255,255,1) 100%);
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+  .container-panel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 7rem 0 0 7rem;
+}
+
+.flex-panel {
+    flex: 1; /* This will make it take up half of the available space */
+}
+
+.container-panel-desc {
+    flex: 1; /* This will make it take up half of the available space */
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    gap: 2rem;
+    padding: 5rem;
+}
+
+.paragraph{
+    font-size: var(--h3-font-size);
+    margin-bottom: 2rem;
+}
+
+.big-title{
+    font-size: var(--bigg-font-size);
+    color: #01390C;
+}
+
+.button-big{
+    background-color: #01390C;
+    padding: 1rem 5rem 1rem 5rem;
+    border-radius: 3rem;
+    color: white;
+
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #01390C; 
+   margin: 0 4rem;
+}
+
