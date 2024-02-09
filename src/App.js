@@ -6,6 +6,8 @@ import Infinite from "./components/infinite/Infinite";
 function App() {
   return (
     <div className="App">
+      <Home />
+      <Cards />
       <Infinite />
     </div>
   );
