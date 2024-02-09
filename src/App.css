@@ -115,7 +115,7 @@
   }
  
   .section{
-    padding:6rem 0 2rem;
+    padding:6rem 1rem 2rem;
   }
 
   .container{
@@ -135,4 +135,12 @@
 
 .grid{
   display: grid;
+}
+
+.p2{
+  padding: 2rem;
+}
+
+p{
+  font-size: var(--small-font-size);
 }
