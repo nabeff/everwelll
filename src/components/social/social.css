@@ -1,0 +1,32 @@
+.social-container{
+    position: relative;
+    gap: 1rem;
+}
+
+
+.img {
+    position: relative;
+    
+}
+
+.img .button-outline {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    background-color: #ffffff;
+    border: 1px solid #000000;
+   
+    color: #000000;
+    cursor: pointer;
+}
+
+.img:hover .button-outline {
+    display: block;
+}
+
+.img:hover{
+    opacity: 0.7;
+}
