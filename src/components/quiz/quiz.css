@@ -1,0 +1,16 @@
+.quiz-container{
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    background-color: #01390C;
+    border-radius: 1rem;
+    border-top-right-radius: 15rem;
+    
+    
+    
+}
+
+.quiz-content{
+    align-items: start;
+  
+}

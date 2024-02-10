@@ -21,7 +21,7 @@
   --h1-font-size:2.25rem;
   --h2-font-size:1.5rem;
   --h3-font-size:1.25rem;
-  --normal-font-size: 1rem;
+  --normal-font-size: 1.1rem;
   --small-font-size:0.813rem;
   --tiny-font-size:0.625rem;
   
@@ -85,11 +85,13 @@
   input,
   textarea {
     font-family: var(--body-font);
-    font-size: var(--normal-font-size)
+    font-size: var(--normal-font-size);
+    
+    
   }
 
   body{
-    background-color: var(--body-color);
+    
     color: var(--text-color);
   }
 
@@ -131,7 +133,6 @@
     display: flex;
 }
 
-
 .flex-col{
   display: flex;
   flex-direction: column;
@@ -142,8 +143,20 @@
   flex-direction: row-reverse;
 }
 
+.align-text{
+  text-align: center;
+}
+
 .grid{
   display: grid;
+}
+
+.gap1{
+  gap: 1rem;
+}
+
+.gap2{
+  gap: 2rem;
 }
 
 .p1{
@@ -170,7 +183,24 @@ p{
   font-size: var(--small-font-size);
 }
 
+a{
+  text-decoration: none;
+  color: #01390C;
+  font-weight: 300;
+}
+
 .green{
   color: #01390C;
 }
+
+.white{
+  color: white;
+}
+
+
+.App{
+  
+  height: 100vh;
+}
+
 

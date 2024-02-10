@@ -1,0 +1,9 @@
+.champion-container{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.champion-content{
+    align-items: center;
+}

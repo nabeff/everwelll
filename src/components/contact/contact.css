@@ -1,7 +1,79 @@
-
-
 .contact-content{
     background-color: #EAEAEA;
     border-radius: 2rem;
+    gap: 3rem;
+    justify-content: center;
 }
 
+.contact-container  {
+    gap: 1rem;
+}
+
+.contact-container > div {
+    width: 40%;
+}
+
+input{
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 100%;
+    height: 40px;
+}
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-radius: 2rem;
+    border: 1px lightgray solid;
+    position: relative;
+  }
+  
+  .searchButton {
+    color: white;
+    position: absolute;
+    
+    right: 8px;
+    width: 20%;
+    height: 80%;
+    border-radius: 2rem;
+    background: #01390C;
+    border: 0;
+    display: inline-block;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  }
+  /*hover effect*/
+  button:hover {
+    color: #fff;
+    
+    box-shadow: rgba(0, 0, 0, 0.2) 0 5px 5px;
+    transform: scale(1.1);
+  }
+  /*button pressing effect*/
+  button:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+  
+  .searchInput {
+    border: none;
+    background: none;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    padding: 24px 46px 24px 26px;
+  }
+  
+  @media screen and (max-width: 1110px){
+    .contact-container {
+        flex-direction: column;     
+        align-items: center;
+    }
+    .contact-container > div {
+        width: 70%;
+    }
+    
+}
+  
+  

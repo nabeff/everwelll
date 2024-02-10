@@ -11,22 +11,29 @@ import Comment from "./components/comment/Comment";
 import Product from "./components/product/Product";
 import Social from "./components/social/Social";
 import Contact from "./components/contact/Contact";
+import Champion from "./components/champions/Champion.jsx";
+import Quiz from "./components/quiz/Quiz.jsx";
+import Header from "./components/header/Header.jsx";
 
 function App() {
   return (
     <div className="App">
-      {/* 
-  <Home />
-      <Cards />
-      <Infinite />
-      <Testimonial />
-      <Panel />
-      <Cardswipe />
-       <Stories />
-        <Blog />
-        <Product />
-      */}
-      <Contact />
+      {/* <Cards /> */}
+      {/* <Infinite /> */}
+      {/* <Testimonial /> */}
+      {/* <Panel /> */}
+      {/* <Champion /> */}
+      {/* <Quiz /> */}
+      {/* <Cardswipe /> */}
+      {/* <Stories /> */}
+      {/* <Blog /> */}
+      {/* <Product /> */}
+      {/* <Comment /> */}
+      {/* <Product /> */}
+      {/* <Social /> */}
+      {/* <Contact /> */}
+
+      <Home />
     </div>
   );
 }

@@ -5,15 +5,17 @@ import "./contact.css"
 const Contact = () => {
   return (
     <section className='section'>
-        <div className='flex gap center contact-container '>
-            <div className='flex-1'>
+        <div className='flex  center contact-container '>
+
+            <div className='flex'>
                 <img src={contact} alt="" />
             </div>
-            <div className='flex-col flex-1 gap contact-content p5'>
-                <h2 className='title'>Join Our<br/>Community</h2>
+
+            <div className='flex-col gap contact-content p5'>
+                <h2 className='title green'>Join Our<br/>Community</h2>
                 
-                <p>Receive exclusive deals, discounts and many offers.</p>
-                <div><input type="text" className='input'/><button className='button'>Join</button></div>
+                <p className='paragraph green'>Receive exclusive deals, discounts and many offers.</p>
+                <div className='searchBox'><input className="searchInput" placeholder='Enter your email' type="text"/><button className='searchButton' >Join</button></div>
             </div>
         </div>
     </section>
