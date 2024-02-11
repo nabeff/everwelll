@@ -32,7 +32,7 @@ function App() {
       {/* <Product /> */}
       {/* <Social /> */}
       {/* <Contact /> */}
-
+      <Header />
       <Home />
     </div>
   );

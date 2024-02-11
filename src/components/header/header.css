@@ -70,7 +70,7 @@
       background: #01390C;
       left: 0;
       width: 40%;
-      height: 40%;
+     
       transform: translateX(-100%);
       transition: all .45s;
       border-radius: 0 0 2rem 0rem;
