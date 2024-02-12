@@ -26,10 +26,10 @@ const Cards = () => {
     <section className='section cardd'>
       
       <div className="water-container water" >
-        <img src={water} alt="Water" className="water-image" data-aos="zoom-out-left" data-aos-duration="1100" />
+        <img src={water} alt="Water" className="water-image" data-aos="zoom-out-left" data-aos-duration="3000" />
       </div>
 
-      <div className="water-container2 water" data-aos="zoom-out-left" data-aos-duration="1100" >
+      <div className="water-container2 water" data-aos="zoom-out-left" data-aos-duration="3000" >
         <img src={water2} alt="Water" className="water-image" />
       </div>
 
@@ -73,9 +73,9 @@ const Cards = () => {
           
           <div className='flex-col card-content'>
            
-            <p>
+            <h3 className='bold'>
                Lung Detox: "Lung Cleanser"
-            </p>
+            </h3>
 
             <div className='flex-rating gap1 align-items'>
                   <img src={stars} alt="" /><span className='rate'>4.5/5</span>
@@ -100,9 +100,9 @@ const Cards = () => {
 
           <div className='flex-col card-content'>
             
-            <p>
+            <h3 className='bold'>
                Lung Detox: "Lung Cleanser"
-            </p>
+            </h3>
 
             <div className='flex-rating gap1 align-items'>
         <img src={stars} alt="" /><span className='rate'>4.5/5</span>
@@ -116,16 +116,19 @@ const Cards = () => {
 
         </SwiperSlide>
 
-        <SwiperSlide className='flex-col'>
+        <SwiperSlide className='flex-col '>
   <div className='radius yellow p2 hover relative-position'>
+
     <div className='corner-image-container'>
       <img src={newi} alt="" className='card-corner-image' />
     </div>
+
     <div>
       <img src={imunity} alt="" />
     </div>
+
     <div className='flex-col card-content'>
-      <p>Lung Detox: "Lung Cleanser"</p>
+      <h3 className='bold'>Lung Detox: "Lung Cleanser"</h3>
       <div className='flex-rating gap1 align-items'>
         <img src={stars} alt="" /><span className='rate'>4.5/5</span>
       </div>

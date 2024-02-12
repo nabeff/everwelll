@@ -2,8 +2,30 @@
     width: 100%;
     justify-content: space-between;
     align-items: center; 
+    position: relative;
 }
 
 .champion-content{
     align-items: center;
 }
+
+
+.water-container4 {
+    position: absolute;
+      bottom: -350px;
+      left: 0;
+}
+
+.water-image4 {
+    width: 300px;
+}
+         
+  
+
+
+@media screen and (max-width: 650px){
+        .story-container{
+            flex-direction: column;
+        }
+        
+    }

@@ -47,6 +47,7 @@ option{
 .footer-list.white.dropdown{
     width: 100%;
 }
+
 .footer-link{
     justify-content: space-between;
     gap: 8rem;
@@ -73,24 +74,37 @@ option{
     list-style: none;
     padding-bottom: 1rem;
     opacity: 0.6;
+    font-weight: 300;
     
+}
+
+.titles{
+    font-size: var(--bigg-font-size);
 }
 
 .drop-title{
     margin-bottom: 2rem;
     
 }
+.opacity{
+    opacity: 0.8;
+}
 
 @media screen and (max-width: 1200px){
     .footer-link{
         
-        gap: 1rem;
+        gap: 4rem;
        
     }
     
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 900px){
+    .footer-link{
+        
+        gap: 1rem;
+       
+    }
     .footer-info{
         flex-direction: row;
         justify-content: space-between;

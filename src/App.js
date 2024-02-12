@@ -37,9 +37,9 @@ function App() {
       <Champion />
       <Quiz />
       <Cardswipe />
+      <Blog />
       <Stories />
-
-      <Champion />
+      <Product />
       <Comment />
       <Social />
       <Contact />

@@ -15,6 +15,12 @@
     gap: 1rem;
 }
 
+.title-testimonial{
+    color: #01390C;
+    font-size: var(--big-font-size);
+
+    
+}
 .align-items{
     align-content: center;
 }
@@ -44,12 +50,22 @@
     padding: 1rem 4rem 1rem 4rem;
     border-radius: 3rem;
     color: #01390C;
+    border: 0;
+    transition: 0.2s;
+}
+
+.button-white:hover{
+    transform: scale(1.05);
 }
 
 .rate-img{
     width: 30%;
     height: 90%;
 }
+
+.testimonial-padding{
+    padding: 2rem;
+   }
 
 @media screen and (max-width: 1310px){
     .adjust{
@@ -71,6 +87,14 @@
     }
 
    
-    
+
+}
+
+@media screen and (max-width: 620px){
+
+    .testimonial-padding{
+        padding: 0rem;
+       }
+        
 
 }

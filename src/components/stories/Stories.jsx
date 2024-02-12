@@ -8,32 +8,37 @@ import "./story.css"
 const Stories = () => {
   return (
     <section className='section'>
-         <div className='social_title flex-col center '>
-            <h1 className='title'>Success Stories</h1>
+         <div className='social_title flex-col center' data-aos="zoom-in" data-aos-duration="1000">
+            <h1 className='title green'>Success Stories</h1>
             <p className='paragraph'>Read the real-life experiences of individuals who've embraced <br/> the EverWell journey and transformed their wellness.</p>
         </div>
 
-<div className='social-content flex '>
+            <div className='social-content flex' data-aos="zoom-in" data-aos-duration="2000">
+
         <div className='story-container flex  center '>
-            <div className="img">
+
+            <div className="img" data-aos="fade-up" >
                 <img src={s4} alt="" />
                 <button className='button-outline'>View Post</button>
                 
             </div>
-            <div className="img">
+            <div className="img" data-aos="fade-up" >
                 <img src={s2} alt="" />
                 <button className='button-outline'>View Post</button>
                 
             </div>
             
         </div>
+
         <div className='story-container flex  center '>
-            <div className="img">
+
+            <div className="img" data-aos="fade-up" >
                 <img src={s3} alt="" />
                 <button className='button-outline'>View Post</button>
                 
             </div>
-            <div className="img">
+
+            <div className="img" >
                 <img src={s1} alt="" />
                 <button className='button-outline'>View Post</button>
                 

@@ -17,8 +17,9 @@ const Cardswipe = () => {
   return (
     <section className='section cards'>
         
-        <div className='section_title flex '>
+        <div className='section_title flex' data-aos="fade-up">
             <h1 className='green'>Customer Favorites</h1>
+            <div className='green-bluered'></div>
         </div>
 
         <Swiper
@@ -38,11 +39,11 @@ const Cardswipe = () => {
           className="mySwiper"
           initialSlide={1} // Set initial slide to the middle one
         >
-          <div className='flex gap center '>
+          <div className='flex gap center' data-aos="fade-up">
 
-            <SwiperSlide className='cardswipe flex-col blue'>
+            <SwiperSlide className='cardswipe flex-col blue apple'>
                 <img src={panel3} alt="" />
-                <p className='desc'>Lung Detox: "Lung Cleanser"</p>
+                <h3 className='desc'>Lung Detox: "Lung Cleanser"</h3>
 
                 <div className='flex-rate'>
                   <img src={stars} alt="" /><span className='rate'>4.5/5</span>
@@ -53,10 +54,10 @@ const Cardswipe = () => {
                 </div>
             </SwiperSlide>
 
-            <SwiperSlide className='cardswipe flex-col scale pink'>
+            <SwiperSlide className='cardswipe flex-col scale pink apple'>
                 <img src={focus} alt="" />
-                <p className='desc'>Lung Detox: "Lung Cleanser"</p>
-                
+                <h3 className='desc'>Lung Detox: "Lung Cleanser"</h3>
+
                 <div className='flex-rate'>
                   <img src={stars} alt="" /><span className='rate'>4.5/5</span>
                 </div>
@@ -65,9 +66,9 @@ const Cardswipe = () => {
                 </div>
             </SwiperSlide>
 
-            <SwiperSlide className='cardswipe flex-col yellow'>
+            <SwiperSlide className='cardswipe flex-col yellow apple'>
                 <img src={panel2} alt="" />
-                <p className='desc'>Lung Detox: "Lung Cleanser"</p>
+                <h3 className='desc'>Lung Detox: "Lung Cleanser"</h3>
                 <div className='flex-rate'>
                   <img src={stars} alt="" /><span className='rate'>4.5/5</span>
                 </div>
@@ -80,6 +81,10 @@ const Cardswipe = () => {
 
 
         </Swiper>
+
+        <div className='button-center center' data-aos="zoom-in" >
+        <button className='button'>View All</button>
+      </div>
 
        
     </section>

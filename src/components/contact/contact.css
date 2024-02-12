@@ -21,6 +21,10 @@ input{
     height: 40px;
 }
 
+.image-contact img{
+  width: 100%;
+}
+
 .searchBox {
     display: flex;
     align-items: center;
@@ -64,10 +68,17 @@ input{
         align-items: center;
         padding: 1rem;
     }
+
     .contact-container > div {
         width: 100%;
     }
     
+    .searchButton {
+     
+      width: 20%;
+      
+      
+    }
 }
   
   

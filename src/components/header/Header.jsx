@@ -7,7 +7,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="Navbar">
+    <div className="Navbar apple">
 
 <div
       className={`nav-toggle ${isOpen && "open"}`}

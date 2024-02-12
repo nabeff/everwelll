@@ -9,8 +9,11 @@
 }
 
 .img {
-    position: relative;
-    
+    position: relative; 
+}
+
+.img img {
+    width: 100%;
 }
 
 .img .button-outline {

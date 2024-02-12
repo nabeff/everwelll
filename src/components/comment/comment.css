@@ -1,4 +1,22 @@
+.comment-sections{
+  position: relative;  
+}
 
+.water-container5 {
+  position: absolute;
+    top: -20px;
+    right: 0;
+}
+
+.water-container6 {
+  position: absolute;
+    top: -200px;
+    right: 200px;
+}
+  
+.water7 img {
+  width: 100px;
+}
 .comment-container {
     position: relative;
     width: 70%;
@@ -16,6 +34,7 @@
     box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.2); 
      /* Adjust margin as needed */
 }
+
 
 
 

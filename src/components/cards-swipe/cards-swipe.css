@@ -7,6 +7,7 @@
 }
 
 .section_title{
+    position: relative;
     justify-content: center;
     margin-bottom: 7rem;
     font-size: var(--h2-font-size);
@@ -106,6 +107,19 @@
     display: flex;
     
     margin-top: 6rem;
+}
+
+.section_title:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-40%, -20%);
+    width: 80%;
+    height: 100%;
+    background-color: #D6FFDD;; /* Green color with transparency */
+    filter: blur(50px); /* Adjust blur intensity as needed */
+    z-index: -1; /* Behind the content */
 }
 
 

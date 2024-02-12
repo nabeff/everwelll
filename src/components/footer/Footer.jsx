@@ -25,7 +25,7 @@ const Footer = () => {
       };
     }, []);
   
-    const isMobile = viewportWidth < 850;
+    const isMobile = viewportWidth < 900;
     
   return (
     <section>
@@ -38,8 +38,8 @@ const Footer = () => {
 
             <div className='footer-info flex-col'>
                 <div className='flex-col'>
-                <h1 className='title white'>EverWell</h1>
-                <p className='white paragraph'>Elevate your inner wellness.</p>
+                <h1 className='titles white'>everwell</h1>
+                <p className='white paragraph apple '>Elevate your inner wellness.</p>
                 </div>
 
                 <div className='flex icon'>
@@ -49,7 +49,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='flex footer-link '>
+            <div className='flex footer-link apple'>
 
                 <div className='list-flex flex-col'>
 
@@ -135,10 +135,10 @@ const Footer = () => {
             
         </div>
 
-        <div className='footer-payment flex'>
+        <div className='footer-payment flex apple'>
 
             <div>
-                <p className='white'>Copyright 2023 | EverWell | All Rights Reserved </p>
+                <p className='white opacity'>Copyright 2023 | EverWell | All Rights Reserved </p>
             </div>
 
            

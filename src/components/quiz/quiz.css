@@ -1,16 +1,22 @@
 .container-quiz{
     padding: 4rem;
+   
 }
 
 .quiz-container{
-    align-items: center;
-    padding: 4rem;
+    align-items: center;   
     gap: 2rem;
     background-color: #01390C;
     border-radius: 1rem;
     border-top-right-radius: 10rem;
     justify-content: space-evenly;
     
+}
+
+.title-white{
+    color: white;
+    font-size: var(--big-font-size);
+    margin-bottom: 2rem;
 }
 
 .quiz-content{
@@ -20,14 +26,23 @@
 
 @media screen and (max-width: 1200px){
     .quiz-container{
-        
         border-radius: 0rem;
-        border-top-right-radius: 10rem;
+        border-top-right-radius: 10rem; 
         
     }
-    
+
     .container-quiz{
         padding: 0rem;
+       
+    }
+    
+
+    .quiz-container{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .quiz-content{
+        padding: 2rem;
     }
     
     

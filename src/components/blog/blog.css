@@ -1,6 +1,7 @@
 .blog-container{
     padding: 5rem;
     border-radius: 2rem;
+    width: 100%;
     
 }
 
@@ -9,7 +10,8 @@
     align-items: start;
    padding: 1rem;
    background-color: #F9F9F9;
-  padding: 3rem;
+  padding: 4rem;
+  gap: 2rem;
   
 }
 
@@ -54,17 +56,28 @@
   transform: scaleX(-1);
 }
 
+.img-container img {
+  width: 100%;
+}
+
   .button {
     background-color: #01390C;
     padding: 1rem 3rem;
     border-radius: 3rem;
     color: white;
+    border: none;
   }
 
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 1350px){
     
     .blog-container{
-      padding: 5rem 1rem;
+      padding: 0rem;
+      border-radius: 2rem;
+      width: 100%;
+      
+  }
+    .blog-container{
+      
       border-radius: 2rem;
       
   }

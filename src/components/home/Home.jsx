@@ -4,13 +4,14 @@ import cleanser from "../../assets/images/cleanser.png"
 import vita from "../../assets/images/vita.svg"
 import min from "../../assets/images/min.svg"
 import water3 from "../../assets/icons/water3.svg"
+import arrow from "../../assets/images/arrow.svg"
 
 
 const Home = () => {
   return (
     <section className=' section home-section' id="home">
 
-        <div className="water-container3 water" data-aos="zoom-out-right" data-aos-duration="2000" >
+        <div className="water-container3 water" data-aos="zoom-out-right" data-aos-duration="3000" >
            <img src={water3} alt="Water" className="water-image" />
         </div>
 
@@ -66,6 +67,10 @@ const Home = () => {
                 </div>
                </div>
 
+            </div>
+
+            <div className='card'>
+              <img src={arrow} alt="" />
             </div>
           
         </div>
