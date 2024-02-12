@@ -5,7 +5,7 @@ import "./quiz.css"
 const Quiz = () => {
   return (
     <section className='section'>
-        <div className=' flex center'>
+        <div className='container-quiz flex center'>
             <div className='quiz-container flex center'> 
             <div className='quiz-content flex-col'>
                 <h1 className='title white'>Discover Your Ideal <br/>EverWell Product</h1>

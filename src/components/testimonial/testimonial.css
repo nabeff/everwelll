@@ -7,7 +7,7 @@
     width: 100%;
     padding: 3rem;
     gap: 2rem;
-    border-radius: 12rem 1rem 1rem 1rem;
+    border-radius: 14rem 1rem 1rem 1rem;
 }
 
 .adjust{
@@ -55,12 +55,13 @@
     .adjust{
         grid-template-columns: repeat(1, 100%); 
         gap: 1rem; 
-        justify-content: center;    
+        justify-content: center;  
+        padding: 0.4rem;  
     }
     
     .box-title{
         align-items: center;   
-        border-radius: 12rem 1rem 1rem 1rem;
+        border-radius: 8rem 1rem 1rem 1rem;
         text-align: center;
     }
 

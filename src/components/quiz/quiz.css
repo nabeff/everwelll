@@ -1,16 +1,26 @@
+
+
 .quiz-container{
     align-items: center;
-    padding: 2rem;
+    padding: 3rem;
     gap: 2rem;
     background-color: #01390C;
     border-radius: 1rem;
-    border-top-right-radius: 15rem;
-    
-    
+    border-top-right-radius: 10rem;
     
 }
 
 .quiz-content{
     align-items: start;
   
+}
+
+@media screen and (max-width: 1200px){
+    .quiz-container{
+        
+        border-radius: 0rem;
+        border-top-right-radius: 10rem;
+        
+    }
+    
 }
