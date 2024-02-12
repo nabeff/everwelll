@@ -14,26 +14,27 @@ import Contact from "./components/contact/Contact";
 import Champion from "./components/champions/Champion.jsx";
 import Quiz from "./components/quiz/Quiz.jsx";
 import Header from "./components/header/Header.jsx";
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
   return (
     <div className="App">
-      {/* <Cards /> */}
-      {/* <Infinite /> */}
-      {/* <Testimonial /> */}
-      {/* <Panel /> */}
-      {/* <Champion /> */}
-      {/* <Quiz /> */}
-      {/* <Cardswipe /> */}
-      {/* <Stories /> */}
-      {/* <Blog /> */}
-      {/* <Product /> */}
-      {/* <Comment /> */}
-      {/* <Product /> */}
-      {/* <Social /> */}
-      {/* <Contact /> */}
+      <div class="green-blurred-div"></div>
+      <div class="green-blurred-div-right"></div>
       <Header />
-      <Home />
+      <Cards />
+      <Testimonial />
+      <Panel />
+      <Champion />
+      <Quiz />
+      <Cardswipe />
+      <Stories />
+      <Blog />
+      <Comment />
+      <Social />
+      <Contact />
+
+      <Footer />
     </div>
   );
 }

@@ -8,21 +8,41 @@ import "./story.css"
 const Stories = () => {
   return (
     <section className='section'>
-
-        <div className='story_container '>
-            <h1 className='title green'>Customer Favorites</h1>
-            <div className='paragraph'>Read the real-life experiences of individuals who've embraced <br/>
-            the EverWell journey and transformed their wellness.</div>
-            <div className='grid grid-4'>
-  <img src={s4} alt="" />  
-  <img src={s3} alt="" />
-  <img src={s2} alt="" />
-  <div className="last-image-container">
-    <img src={s1} alt="" className='opacity'/>
-    <button className="button-middle">Read more</button>
-  </div>
-</div>
+         <div className='social_title flex-col center '>
+            <h1 className='title'>Success Stories</h1>
+            <p className='paragraph'>Read the real-life experiences of individuals who've embraced <br/> the EverWell journey and transformed their wellness.</p>
         </div>
+
+<div className='social-content flex '>
+        <div className='story-container flex  center '>
+            <div className="img">
+                <img src={s4} alt="" />
+                <button className='button-outline'>View Post</button>
+                
+            </div>
+            <div className="img">
+                <img src={s2} alt="" />
+                <button className='button-outline'>View Post</button>
+                
+            </div>
+            
+        </div>
+        <div className='story-container flex  center '>
+            <div className="img">
+                <img src={s3} alt="" />
+                <button className='button-outline'>View Post</button>
+                
+            </div>
+            <div className="img">
+                <img src={s1} alt="" />
+                <button className='button-outline'>View Post</button>
+                
+            </div>
+            
+        </div>
+        </div>
+
+        
 
     </section>
   )

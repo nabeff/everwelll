@@ -18,8 +18,8 @@ const Testimonial = () => {
 
       <div className='flex box-title'>
        
-        <h1 className='title'>Echoes of Wellness: Dive <br/>into the EverWell Experience 
-        <br/>through Customer Reviews"</h1>
+        <h1 className='title'>Echoes of Wellness:<br/> Dive into the EverWell Experience 
+        through Customer Reviews"</h1>
         <button className='button-white'>View All</button>
         
       </div>
@@ -30,11 +30,11 @@ const Testimonial = () => {
             <img src={p5} alt="" />          
         </div> 
 
-        <div className="flex-col box p2">
+        <div className="flex-col box center p2">
           <p>EverWell is a game-changer. Period.Their products are more than supplements; they're life enhancers. </p>
           <h4>Sarah Thompson</h4>
           <div className='flex-rate-center'>
-            <img src={stars} alt="" /><span className='rate'>4.5/5</span>
+            <img className='rate-img' src={stars} alt="" /><span className='rate'>4.5/5</span>
             </div>
         </div>
         
@@ -42,11 +42,11 @@ const Testimonial = () => {
             <img src={profile} alt="" />          
         </div> 
            
-        <div className="flex-col box p2">
+        <div className="flex-col box center p2">
           <p>EverWell is a game-changer. Period.Their products are more than supplements; they're life enhancers. </p>
           <h4>Sarah Thompson</h4>
           <div className='flex-rate-center'>
-            <img src={stars} alt="" /><span className='rate'>4.5/5</span>
+            <img className='rate-img'src={stars} alt="" /><span className='rate'>4.5/5</span>
             </div>
         </div>
 
@@ -54,11 +54,11 @@ const Testimonial = () => {
             <img src={p4} alt="" />          
         </div> 
            
-        <div className="flex-col box p2">
+        <div className="flex-col box center p2">
           <p>EverWell is a game-changer. Period.Their products are more than supplements; they're life enhancers. </p>
           <h4>Sarah Thompson</h4>
           <div className='flex-rate-center'>
-            <img src={stars} alt="" /><span className='rate'>4.5/5</span>
+            <img className='rate-img' src={stars} alt="" /><span className='rate'>4.5/5</span>
             </div>
         </div>
 
@@ -66,11 +66,11 @@ const Testimonial = () => {
             <img src={p2} alt="" />          
         </div> 
            
-        <div className="flex-col box p2">
+        <div className="flex-col box center p2">
           <p>EverWell is a game-changer. Period.Their products are more than supplements; they're life enhancers. </p>
           <h4>Sarah Thompson</h4>
           <div className='flex-rate-center'>
-            <img src={stars} alt="" /><span className='rate'>4.5/5</span>
+            <img className='rate-img'src={stars} alt="" /><span className='rate'>4.5/5</span>
             </div>
         </div>
 

@@ -12,6 +12,7 @@ const Social = () => {
             <h1>Stay Connected: Dive into Our Social Media Feed</h1>
         </div>
 
+<div className='social-content flex gap1'>
         <div className='social-container flex  center m2'>
             <div className="img">
                 <img src={so4} alt="" />
@@ -23,17 +24,23 @@ const Social = () => {
                 <button className='button-outline'>View Post</button>
                 
             </div>
+            
+        </div>
+        <div className='social-container flex  center m2'>
             <div className="img">
                 <img src={so2} alt="" />
                 <button className='button-outline'>View Post</button>
+                
             </div>
             <div className="img">
                 <img src={so3} alt="" />
                 <button className='button-outline'>View Post</button>
+                
             </div>
+            
         </div>
-
-<div className='flex center '><button className='button'>Follow us</button></div>
+        </div>
+<div className='social-button flex center '><button className='button'>Follow us</button></div>
         
 
     </section>

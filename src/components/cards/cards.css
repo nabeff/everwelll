@@ -31,6 +31,7 @@
     padding: 0.5rem 1rem 0.5rem 1rem;
     border-radius: 3rem;
     background-color: transparent;
+    color: #000;
 }
 
 .card{
@@ -110,3 +111,49 @@
     
     margin-top: 6rem;
 }
+
+.water-image {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 100px; /* Adjust size as needed */
+    z-index: 1; /* Ensure it's above other content */
+  }
+
+
+  @media screen and (max-width: 880px){
+    .cards {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: 1rem;
+        padding: 2rem;
+      }
+      
+      .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+      
+      .card {
+        display: none;
+      }
+      
+      .card.active {
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      
+      .card.pink:hover {
+        transform: scale(1); /* Increase the scale on hover */
+    }
+    
+     .card:hover{
+        scale: 1;
+    }
+}
+ 

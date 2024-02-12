@@ -19,7 +19,7 @@ const Comment = () => {
         mousewheel={true}
         keyboard={true}
         modules={[Navigation, Pagination, Mousewheel, Keyboard]}
-        className="mySwiper"
+        className="mySwiper bg-tr"
         breakpoints={{
           // When window width is >= 700px
           600: {

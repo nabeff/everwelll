@@ -3,6 +3,10 @@
     gap: 1rem;
 }
 
+.social-content{
+    justify-content: center;
+    padding: 1rem;
+}
 
 .img {
     position: relative;
@@ -18,9 +22,12 @@
     
     background-color: #ffffff;
     border: 1px solid #000000;
-   
     color: #000000;
     cursor: pointer;
+}
+
+.img{
+    transition: 0.4s;
 }
 
 .img:hover .button-outline {
@@ -28,5 +35,32 @@
 }
 
 .img:hover{
-    opacity: 0.7;
+    opacity: 0.6;
 }
+
+@media screen and (max-width: 1310px){
+    .social-content{
+        flex-direction: column; 
+        padding: 1rem;   
+    }
+    
+}
+@media screen and (max-width: 700px){
+    .section_title{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 650px){
+    .social-container{
+        flex-direction: column;
+    }
+    .social-button{
+        display: none;
+    }
+}
+
+
+
+
+
+

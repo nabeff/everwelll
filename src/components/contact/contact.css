@@ -41,21 +41,14 @@ input{
     background: #01390C;
     border: 0;
     display: inline-block;
-    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    transition: 0.3s;
   }
   /*hover effect*/
-  button:hover {
-    color: #fff;
-    
-    box-shadow: rgba(0, 0, 0, 0.2) 0 5px 5px;
-    transform: scale(1.1);
-  }
-  /*button pressing effect*/
-  button:active {
-    box-shadow: none;
-    transform: translateY(0);
+  .searchButton:hover {
+    transform: scale(1.05);
   }
   
+
   .searchInput {
     border: none;
     background: none;
@@ -69,9 +62,10 @@ input{
     .contact-container {
         flex-direction: column;     
         align-items: center;
+        padding: 1rem;
     }
     .contact-container > div {
-        width: 70%;
+        width: 100%;
     }
     
 }

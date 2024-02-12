@@ -5,6 +5,15 @@
     align-items: center;
 }
 
+.story-container{
+    position: relative;
+    gap: 0;
+}
+.social_title{
+  text-align: center;
+    align-items: center;
+}
+
 .opacity {
     opacity: 0.9;
     filter: grayscale(70%); /* Adjust the opacity value as needed */
@@ -33,8 +42,10 @@
     white-space: nowrap;
 }
   
-@media screen and (max-width: 1310px){
-    .grid-4{
-        grid-template-columns: repeat(2, 1fr);     
+
+@media screen and (max-width: 650px){
+    .story-container{
+        flex-direction: column;
     }
+    
 }

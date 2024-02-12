@@ -1,25 +1,106 @@
-.container-blog{
-    background-color: #EAEAEA;
-    border-radius: 5rem;
-    margin: 5rem;
-}
-
-.content_container{
-    align-items: start;
-}
-.grid-2{
-        grid-template-columns: repeat(2, 50%);     
+.blog-container{
+    padding: 5rem;
+    border-radius: 2rem;
     
 }
 
-@media screen and (max-width: 1310px){
-    .grid-2{
-        grid-template-columns: repeat(1, 1fr); 
-            
-    }
-    .container-blog{
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-    }
+.blog-content{
+    justify-content: center;
+    align-items: start;
+   padding: 1rem;
+   background-color: #F9F9F9;
+  padding: 3rem;
+  
 }
+
+.radius-left{
+    border-top-left-radius: 1rem;
+}
+
+.radius-right{
+    border-bottom-right-radius: 1rem;
+}
+
+.radius-right-top{
+  border-top-right-radius: 1rem;
+}
+
+.flex {
+    display: flex;
+  }
+  
+  .flex .blog-content {
+    width: 50%;
+  }
+  
+  .flex .img-container {
+    width: 50%;
+  }
+  
+  /* Adjust styles for the button */
+  .button {
+    background-color: #01390C;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    color: white;
+  }
+  
+  .reverse{
+    flex-direction: row-reverse;
+  }
+
+.flip{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+  .button {
+    background-color: #01390C;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    color: white;
+  }
+
+  @media screen and (max-width: 800px){
+    
+    .blog-container{
+      padding: 5rem 1rem;
+      border-radius: 2rem;
+      
+  }
+  
+    .blog-card-right{
+        flex-direction: column; 
+      align-content: center;
+      align-items: center;
+      }
+    .blog-card{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .radius-left{
+        border-top-right-radius: 1rem;
+    }
+    
+    .radius-right{
+        border-bottom-right-radius: 0rem;
+    }
+    .radius-right-top{
+      border-top-right-radius: 0rem;
+    }
+    .radius-right-bot{
+      border-bottom-right-radius: 1rem;
+      border-bottom-left-radius: 1rem;
+    }
+    
+    .flex .blog-content {
+      width: 100%;
+    }
+    
+    .flex .img-container {
+      width: 100%;
+    }
+    
+}
+ 
