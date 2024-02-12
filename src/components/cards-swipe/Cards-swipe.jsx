@@ -43,9 +43,11 @@ const Cardswipe = () => {
             <SwiperSlide className='cardswipe flex-col blue'>
                 <img src={panel3} alt="" />
                 <p className='desc'>Lung Detox: "Lung Cleanser"</p>
+
                 <div className='flex-rate'>
                   <img src={stars} alt="" /><span className='rate'>4.5/5</span>
                 </div>
+
                 <div className='container_flex'>
                   <div className='bold'>$130</div><div className='bold gray'>$160</div><div className='discount'>-30%</div>
                 </div>
@@ -54,6 +56,7 @@ const Cardswipe = () => {
             <SwiperSlide className='cardswipe flex-col scale pink'>
                 <img src={focus} alt="" />
                 <p className='desc'>Lung Detox: "Lung Cleanser"</p>
+                
                 <div className='flex-rate'>
                   <img src={stars} alt="" /><span className='rate'>4.5/5</span>
                 </div>

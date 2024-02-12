@@ -1,159 +1,93 @@
-.cards{
-    margin-bottom: 5rem;
+.cardd{
+    position: relative;
 }
 
-.section_title{
-    justify-content: center;
-    margin-bottom: 7rem;
-    font-size: var(--h2-font-size);
-}
-
-.gap{
-    gap: 5rem; 
-}
-
-.center{
-    justify-content: center;
-}
-
-.scale{
-    scale: 1.2;
-}
-
-.space-between{
-    justify-content: space-between;
-    padding-right: 1rem;
-    align-items: center;
-}
-
-.button-outline-card{
-    border: 1px solid black;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    border-radius: 3rem;
-    background-color: transparent;
-    color: #000;
-}
-
-.card{
-    max-width: 390px; 
-    padding-left: 2rem;
-    padding-top: 2rem;
-    border-radius: 1rem;
-    transition: 0.2s;
-}
-
-.card.pink:hover {
-    transform: scale(1.2); /* Increase the scale on hover */
-}
-
-.card:hover{
-    scale: 1.05;
-}
-
-.pink{
-    background: linear-gradient(180deg, rgba(255,178,255,1) 0%, rgba(255,255,255,1) 100%);
-}
-
-.yellow{
-    background: linear-gradient(180deg, rgba(249,229,141,1) 0%, rgba(255,255,255,1) 100%);
-}
-
-.blue{
-    background: linear-gradient(180deg, rgba(141,204,255,1) 0%, rgba(255,255,255,1) 100%);
-}
-
-.desc{
-    font-weight: 700;
-    margin-bottom: 1rem;
-    color: black;
-}
-
-.flex-rate{
-    display: flex;
-    gap: 10px;
-    color: black;
-    margin-bottom: 1rem;
-}
-
-.container_flex{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    color: black;
-    font-size: var(--h3-font-size);
-
-}
-
-.rate{
-    font-size: 14px;
-}
-
-.bold{
-    font-weight: 700;
-    
-}
-
-.gray{
-    color: rgb(179, 179, 179);
-    text-decoration-line: line-through;
-}
-
-.discount{
-    color: red;
-    background: rgb(253, 217, 217);
-    padding: 0.5rem 0.9rem;
-    border-radius: 1rem;
-    font-size: var(--small-font-size);
-}
-
-.button-center{
-    display: flex;
-    
-    margin-top: 6rem;
-}
-
-.water-image {
+.water-container {
     position: absolute;
-    top: -20px;
-    right: -20px;
-    width: 100px; /* Adjust size as needed */
-    z-index: 1; /* Ensure it's above other content */
+    top: 100px;
+    right: 0;
   }
 
+.water-container2 {
+  position: absolute;
+    bottom: 0px;
+    right: 0;
+  }
+  
+  .water-image {
+    width: 200px; /* Adjust as needed */
+  }
+  
+.card-container {
+    max-width: 80%; /* Ensure the container is the positioning context */  
+  }
 
-  @media screen and (max-width: 880px){
-    .cards {
-        position: relative;
-        width: 100%;
-        overflow: hidden;
-        margin: 1rem;
-        padding: 2rem;
-      }
-      
-      .card-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-      }
-      
-      .card {
-        display: none;
-      }
-      
-      .card.active {
-        display: block;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-      
-      .card.pink:hover {
-        transform: scale(1); /* Increase the scale on hover */
-    }
-    
-     .card:hover{
-        scale: 1;
-    }
+.swiper-wrapper{
+    align-items: center;
 }
+
+.radius{
+    border-radius: 2rem;
+    border: 1px rgb(236, 236, 236) solid;
+    
+}
+
+.card-content{
+    gap: 1rem;
+    text-align: start;
+}
+
+
+.flex-rating{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.relative-position {
+    position: relative;
+  }
+  
+  .corner-image-container {
+    position: absolute;
+    top: 20px; /* Adjust top position as needed */
+    left: 15px; /* Adjust left position as needed */
+  }
  
+  
+ 
+.hover{
+    transition: .2s;
+}
+
+
+.hover:hover{
+    transform: scale(1.04);
+}
+
+.hover img {
+    transition: 0.3s;/* Adjust the degree of rotation as needed */
+}
+
+.hover img:hover {
+    transform: scale(1.1) rotate(4deg); /* Adjust the degree of rotation as needed */
+}
+
+  @media screen and (max-width: 1650px){
+    .card-container {
+      
+        max-width: 100%; /* Ensure the container is the positioning context */  
+      }
+    
+    
+}
+
+@media screen and (max-width: 1650px){
+    .scale{
+        transform: scale(1);
+      }
+    
+    
+}

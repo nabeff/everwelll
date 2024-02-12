@@ -1,12 +1,12 @@
 import React from 'react'
 import "./product.css"
-import component from "../../assets/images/component.png"
+import champion from "../../assets/images/champion.png"
 
 const Product = () => {
   return (
-    <section className='section'>
+    <section className='product-champ'>
         <div className='flex center '>
-            <img src={component} alt="" className='product-image' />
+            <img src={champion} alt="" className='product-image' />
         </div>
     </section>
   )

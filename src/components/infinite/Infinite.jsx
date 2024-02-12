@@ -7,6 +7,7 @@ const Infinite = () => {
   return (
     <div class="logos">
       <div class="logos-slide">
+        
       <img src={botle} alt="" />
       <img src={everwell} alt="" />
         <img src={botle} alt="" />
@@ -15,11 +16,19 @@ const Infinite = () => {
         <img src={everwell} alt="" />
         <img src={botle} alt="" />
         <img src={everwell} alt="" />
-      </div>
+        <img src={botle} alt="" />
+        <img src={everwell} alt="" />
+        <img src={botle} alt="" />
+        <img src={everwell} alt="" />
+              </div>
 
       <div class="logos-slide">
       <img src={botle} alt="" />
       <img src={everwell} alt="" />
+        <img src={botle} alt="" />
+        <img src={everwell} alt="" />
+        <img src={botle} alt="" />
+        <img src={everwell} alt="" />
         <img src={botle} alt="" />
         <img src={everwell} alt="" />
         <img src={botle} alt="" />

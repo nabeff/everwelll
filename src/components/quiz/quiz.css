@@ -1,12 +1,15 @@
-
+.container-quiz{
+    padding: 4rem;
+}
 
 .quiz-container{
     align-items: center;
-    padding: 3rem;
+    padding: 4rem;
     gap: 2rem;
     background-color: #01390C;
     border-radius: 1rem;
     border-top-right-radius: 10rem;
+    justify-content: space-evenly;
     
 }
 
@@ -22,5 +25,10 @@
         border-top-right-radius: 10rem;
         
     }
+    
+    .container-quiz{
+        padding: 0rem;
+    }
+    
     
 }

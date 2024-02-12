@@ -1,11 +1,12 @@
 .Navbar {
-    position: relative; /* Set position to relative */
+    position: absolute; /* Set position to relative */
     z-index: 1; /* Set a higher z-index than the home component */
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: transparent;
+    width: 100%;
 }
 
 
@@ -24,16 +25,17 @@
   
   .Navbar > .nav-items > a {
     
-    font-size: var(--normal-font-size);
+    font-size: var(--h3-font-size);
     text-decoration: none;
     margin: 15px;
     position: relative;
     opacity: 0.9;
     padding-left: 1rem;
+    transition: 0.4s;
   }
   
   .Navbar > .nav-items > a:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
   }
   
   .Navbar > .nav-items > a::before {
@@ -66,16 +68,15 @@
       padding: 0.5rem;
       display: flex;
       flex-direction: column;
+      text-align: center;
       gap: 1rem;
       background: #01390C;
-      
+      z-index: 1000;
       left: 0;
       width: 100%;
-     
-     
       transform: translateX(-100%);
       transition: all .45s;
-      
+      border-radius: 0 0 2rem 0;
     }
   
     .Navbar > .nav-items > a::before {
@@ -141,7 +142,7 @@
   
     .Navbar > .nav-items > a {
         color: #ffffff;
-        border-bottom: 1px rgb(194, 194, 194) solid;
+        
         padding-bottom: 10px;
         
       }

@@ -1,4 +1,6 @@
 import "./App.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import Home from "./components/home/Home";
 import Cards from "./components/cards/Cards";
 import Infinite from "./components/infinite/Infinite";
@@ -15,25 +17,32 @@ import Champion from "./components/champions/Champion.jsx";
 import Quiz from "./components/quiz/Quiz.jsx";
 import Header from "./components/header/Header.jsx";
 import Footer from "./components/footer/Footer.jsx";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   return (
-    <div className="App">
+    <div className=" App">
       <div class="green-blurred-div"></div>
       <div class="green-blurred-div-right"></div>
       <Header />
+      <Home />
       <Cards />
+      <Infinite />
       <Testimonial />
       <Panel />
       <Champion />
       <Quiz />
       <Cardswipe />
       <Stories />
-      <Blog />
+
+      <Champion />
       <Comment />
       <Social />
       <Contact />
-
       <Footer />
     </div>
   );

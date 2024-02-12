@@ -10,7 +10,7 @@
 }
 
 .footer-container{
-    gap: 5rem;
+    gap: 1rem;
 }
 
 .footer-content{
@@ -56,8 +56,9 @@ option{
 .footer-payment{
     padding-top: 2rem;
     justify-content: space-between;
-    border-top: 1px solid white;
-
+    border-top: 1px solid #ffffff;
+    
+    
 }
 
 .list-title{
@@ -71,6 +72,7 @@ option{
 .footer-list li {
     list-style: none;
     padding-bottom: 1rem;
+    opacity: 0.6;
     
 }
 
@@ -82,7 +84,7 @@ option{
 @media screen and (max-width: 1200px){
     .footer-link{
         
-        gap: 3rem;
+        gap: 1rem;
        
     }
     

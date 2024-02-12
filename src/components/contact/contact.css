@@ -1,6 +1,7 @@
 .contact-content{
-    background-color: #EAEAEA;
+    background-color: #F9F9F9;
     border-radius: 2rem;
+    border: 1px #EAEAEA solid;
     gap: 3rem;
     justify-content: center;
 }
@@ -33,10 +34,9 @@ input{
   .searchButton {
     color: white;
     position: absolute;
-    
     right: 8px;
-    width: 20%;
-    height: 80%;
+    width: 15%;
+    height: 90%;
     border-radius: 2rem;
     background: #01390C;
     border: 0;
