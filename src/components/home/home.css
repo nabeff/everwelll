@@ -1,16 +1,25 @@
-.home-section{
+.home-section {
     position: relative;
     background: rgb(72, 135, 187);
-background: linear-gradient(180deg, rgba(141,204,255,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(141,204,255,1) 0%, rgba(255,255,255,1) 100%);
+    transition: background-color 0.7s ease-in-out;
+}
 
+.home-section.clicked {
+    transition-delay: 1s; /* Changed the transition delay to 1 second */
+}
+
+.card.clicked {
+    background-color: red;
 }
 
 .water-container3 {
     position: absolute;
-      bottom: 0px;
-      right: 120px;
-    }
-.home-container{
+    bottom: 0px;
+    right: 120px;
+}
+
+.home-container {
     display: flex;
     align-items: center;
     gap: 5rem;
@@ -18,70 +27,65 @@ background: linear-gradient(180deg, rgba(141,204,255,1) 0%, rgba(255,255,255,1) 
     padding: 3rem;
 }
 
-.title{
-    font-size:var(--big-font-size) ;
+.title {
+    font-size: var(--big-font-size);
     margin-bottom: 2rem;
     color: #000;
 }
 
-.button{
+.button {
     background-color: #01390C;
     padding: 1rem 3rem 1rem 3rem;
     border-radius: 3rem;
     color: white;
 }
 
-.description{
+.description {
     margin-bottom: 4rem;
     color: #000;
     font-weight: 600;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.title_green{
-    color:#01390C;
+.title_green {
+    color: #01390C;
     margin-bottom: 1rem;
 }
 
-.price{
+.price {
     margin-bottom: 1rem;
 }
 
-
-.home_image{
+.home_image {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-.products{
+.products {
     display: flex;
     gap: 3rem;
     align-items: center;
-    
 }
 
-.button-outline{
+.button-outline {
     border: 2px solid black;
     padding: 1rem 2rem 1rem 2rem;
     border-radius: 3rem;
     background-color: transparent;
-
 }
 
 .size img {
-    transition: 0.3s;/* Adjust the degree of rotation as needed */
+    transition: 0.3s; /* Adjust the degree of rotation as needed */
 }
 
 .size img:hover {
     transform: scale(1.1) rotate(-8deg); /* Adjust the degree of rotation as needed */
 }
-
 
 .image-home img {
     transition: 0.3s;
@@ -91,41 +95,46 @@ background: linear-gradient(180deg, rgba(141,204,255,1) 0%, rgba(255,255,255,1) 
     transform: scale(1.1) rotate(5deg); /* Adjust the degree of rotation as needed */
 }
 
-
-@media screen and (max-width: 1600px){
-
-    
-
-    .products{
-        display: none;
-    }
-    
+.arrow {
+    transition: 0.3s;
 }
 
+.arrow:hover {
+    transform: scale(1.2);
+}
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1600px) {
+    .products {
+        display: none;
+    }
+}
 
-    .home-container{
+@media screen and (max-width: 992px) {
+    .home-container {
         flex-direction: column-reverse;
     }
-    
-    .home{
+
+    .home {
         display: flex;
     }
-    .home_intro{
+
+    .home_intro {
         text-align: center;
     }
-    .container{ 
-        grid-template-columns: repeat(1, 1fr); 
+
+    .container {
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .products{
+    .products {
         display: none;
     }
-    .water{
+
+    .water {
         display: none;
     }
-    .card{
+
+    .card {
         display: none;
     }
 }
