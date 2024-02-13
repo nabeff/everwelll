@@ -1,6 +1,11 @@
 .product-image{
     position: relative;
-    max-width: 50%;
+    width: 100%;
+}
+
+
+.champion-product img{
+    width: 1200px;
 }
 
 @media screen and (max-width:1150px){

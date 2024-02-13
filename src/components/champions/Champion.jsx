@@ -19,7 +19,7 @@ const Champion = () => {
             </div>
 
             <div className='flex-col align-text gap2 champion-content' data-aos="zoom-in" data-aos-duration="1000">
-                <h1 className='big-title'>Meet Our <br/> Wellness <br/> Champions</h1>
+                <h1 className='champion-title green'>Meet Our <br/> Wellness <br/> Champions</h1>
                 <button className='button'>View Reviews</button>
             </div>
 

@@ -13,16 +13,16 @@ const Stories = () => {
             <p className='paragraph'>Read the real-life experiences of individuals who've embraced <br/> the EverWell journey and transformed their wellness.</p>
         </div>
 
-            <div className='social-content flex' data-aos="zoom-in" data-aos-duration="2000">
+            <div className='social-content flex' >
 
         <div className='story-container flex  center '>
 
-            <div className="img" data-aos="fade-up" >
+            <div className="img"  >
                 <img src={s4} alt="" />
                 <button className='button-outline'>View Post</button>
                 
             </div>
-            <div className="img" data-aos="fade-up" >
+            <div className="img"  >
                 <img src={s2} alt="" />
                 <button className='button-outline'>View Post</button>
                 
@@ -32,7 +32,7 @@ const Stories = () => {
 
         <div className='story-container flex  center '>
 
-            <div className="img" data-aos="fade-up" >
+            <div className="img"  >
                 <img src={s3} alt="" />
                 <button className='button-outline'>View Post</button>
                 

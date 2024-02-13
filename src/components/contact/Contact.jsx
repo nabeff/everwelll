@@ -11,14 +11,14 @@ const Contact = () => {
                 <img src={contact} alt="" />
             </div>
 
-            <div className='flex-col gap contact-content p4'>
-                <h2 className='title green'>Join Our<br/>Community</h2>
+            <div className='flex-col contact-content p4'>
+                <h2 className='contact-title green'><span className='font-thin'>Join Our</span><br/>Community</h2>
                 
                 <p className='paragraph green'>Receive exclusive deals, discounts and many offers.</p>
                 <div className='searchBox'><input className="searchInput apple" placeholder='Enter your email' type="text"/><button className='searchButton' >Join</button></div>
             </div>
         </div>
-    </section>
+    </section> 
   )
 }
 

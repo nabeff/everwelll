@@ -17,8 +17,9 @@ import { Navigation } from 'swiper/modules';
 
 const Panel = () => {
   return (
-   <section>
-    
+   <section className='relative'>
+    <div class="green-blurred-div-home-panel"></div>
+    <div class="green-blurred-div-right-home-panel"></div>
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
 
         <SwiperSlide className='bg-ye'>
@@ -26,8 +27,8 @@ const Panel = () => {
         <div className='flex container-panel'>
 
              <div className='flex-col container-panel-desc'>
-                <h1 className='big-title'>Immunity:<br/> Immune Vitality</h1>
-                <p className='paragraph black'>Meet the superhero of your well-being journey:
+                <h1 className='panel-title green'>Immunity:<br/> Immune Vitality</h1>
+                <p className='paragraph black '>Meet the superhero of your well-being journey:
                  'Immune Vitality.' It's your trusty sidekick in the battle 
                  for a strong and robust immune system. 
                  Whether you're facing the sneezes or just want to stay in your prime,

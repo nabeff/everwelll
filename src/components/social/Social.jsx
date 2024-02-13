@@ -8,8 +8,8 @@ import "./social.css"
 const Social = () => {
   return (
     <section className='section'>
-         <div className='section_title flex '>
-            <h1>Stay Connected: Dive into Our Social Media Feed</h1>
+         <div className=' flex center m2'>
+            <h1 className='title'>Stay Connected: Dive into Our Social Media Feed</h1>
         </div>
 
 <div className='social-content flex gap1'>

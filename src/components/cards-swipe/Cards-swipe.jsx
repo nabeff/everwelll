@@ -5,40 +5,40 @@ import panel2 from "../../assets/images/panel2.png"
 import stars from "../../assets/images/stars.png"
 import "./cards-swipe.css"
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-
+import { Swiper, SwiperSlide } from 'swiper/react'; // Import Swiper and SwiperSlide
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import { EffectCoverflow } from 'swiper/modules'; // Import EffectCoverflow from modules
 
 const Cardswipe = () => {
   return (
-    <section className='section cards'>
+    <section className=' cards'>
         
         <div className='section_title flex' data-aos="fade-up">
-            <h1 className='green'>Customer Favorites</h1>
+            <h1 className='title green'>Customer Favorites</h1>
             <div className='green-bluered'></div>
         </div>
 
         <Swiper
-          effect={'coverflow'}
-          grabCursor={true}
-          centeredSlides={true}
-          slidesPerView={'auto'}
-          coverflowEffect={{
-            rotate: -10,
-            stretch: 0,
-            depth: 300,
-            modifier: 1,
-            slideShadows: false,
-          }}
-          pagination={false}
-          modules={[EffectCoverflow, Pagination]}
-          className="mySwiper"
-          initialSlide={1} // Set initial slide to the middle one
-        >
+  effect={'coverflow'}
+  grabCursor={true}
+  centeredSlides={true}
+  slidesPerView={'auto'}
+  coverflowEffect={{
+    rotate: -10,
+    stretch: 0,
+    depth: 300,
+    modifier: 1,
+    slideShadows: false,
+  }}
+  navigation={true} // Enable navigation arrows
+  pagination={false}
+  modules={[EffectCoverflow]} // Include EffectCoverflow module
+  className="mySwiper"
+  initialSlide={1} // Set initial slide to the middle one
+>
           <div className='flex gap center' data-aos="fade-up">
 
             <SwiperSlide className='cardswipe flex-col blue apple'>

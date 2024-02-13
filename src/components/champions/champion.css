@@ -1,3 +1,10 @@
+@font-face {
+    
+    font-family: myfontlight;
+    
+    src: url(../../../../RecklessLight.ttf);
+  }
+  
 .champion-container{
     width: 100%;
     justify-content: space-between;
@@ -19,13 +26,22 @@
 .water-image4 {
     width: 300px;
 }
+
+.champion-title{
+    font-family: myfontlight;
+    font-size: var(--bigg-font-size);
+}
          
   
 
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 950px){
         .story-container{
             flex-direction: column;
+        }
+
+        .champion-container{
+            display: none;
         }
         
     }

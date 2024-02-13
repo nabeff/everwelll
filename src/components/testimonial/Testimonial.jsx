@@ -16,9 +16,9 @@ const Testimonial = () => {
       <div className='container grid adjust'>
         
 
-      <div className='flex box-title' data-aos="fade-right" data-aos-duration="1500">
+      <div className='flex box-title' >
        
-        <h1 className='title-testimonial'>Echoes of Wellness:<br/> Dive into the EverWell Experience 
+        <h1 className='title-testimonial '>Echoes of Wellness: Dive <br/>into the EverWell Experience 
         through Customer Reviews"</h1>
         <button className='button-white'>View All</button>
         

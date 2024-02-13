@@ -8,8 +8,10 @@ const Quiz = () => {
       
         <div className='container-quiz  center ' data-aos="zoom-in" data-aos-duration="1000">
             <div className='quiz-container flex center '> 
+
             <div className='quiz-content flex-col'>
-                <h1 className='title-white '>Discover Your Ideal <br/>EverWell Product</h1>
+                <h2 className='quiz-title'><span className='font-thin'>Discover Your Ideal </span>  <br/>EverWell Product</h2>
+                
                 <button className='button-white'>Take the Quiz</button>
             </div>
 

@@ -24,7 +24,7 @@ const Comment = () => {
         <img src={water5} alt="Water" className="water-image" />
       </div>
 
-      <div className="water-container6 water7" data-aos="zoom-out-left" data-aos-duration="3000" >
+      <div className="water-container6 water7 water" data-aos="zoom-out-left" data-aos-duration="3000" >
         <img src={water6} alt="Water" className="water-image" />
       </div>
 

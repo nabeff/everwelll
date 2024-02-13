@@ -1,3 +1,13 @@
+@font-face {
+    
+    font-family: myfontThin;
+    src: url(../../../../RecklessThin.ttf);
+  }
+  
+  .font-thin{
+    font-family: myfontThin;
+  }
+  
 .container-quiz{
     padding: 4rem;
    
@@ -8,15 +18,20 @@
     gap: 2rem;
     background-color: #01390C;
     border-radius: 1rem;
+    padding: 1rem;
     border-top-right-radius: 10rem;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
 }
 
-.title-white{
+.quiz-title{
     color: white;
-    font-size: var(--big-font-size);
+    font-size: var(--quiz-title);
     margin-bottom: 2rem;
+}
+
+.font-thin{
+    font-family: myfontThin;
 }
 
 .quiz-content{
@@ -32,11 +47,9 @@
     }
 
     .container-quiz{
-        padding: 0rem;
-       
-    }
+        padding: 0rem;       
+  }
     
-
     .quiz-container{
         flex-direction: column;
         padding: 1rem;

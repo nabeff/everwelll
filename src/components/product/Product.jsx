@@ -8,7 +8,7 @@ const Product = () => {
     <section className='product-champ'>
 
      
-        <div className='flex center ' data-aos="zoom-in-up">
+        <div className='champion-product flex center ' data-aos="zoom-in-up">
             <img src={champion} alt="" className='product-image' />
         </div>
     </section>

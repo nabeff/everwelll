@@ -43,12 +43,16 @@
     display: inline-block;
     
 
-    animation: 30s slide infinite linear;
+    animation: 45s slide infinite linear;
   }
   
   .logos-slide img {
-    
-    margin: 0 30px;
+   
+    margin: 0 20px;
+  }
+
+  img.above {
+    margin-bottom: 1rem;
   }
 
   

@@ -18,6 +18,7 @@ import Quiz from "./components/quiz/Quiz.jsx";
 import Header from "./components/header/Header.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import { useEffect } from "react";
+import Frame from "./components/frame/Frame";
 
 function App() {
   useEffect(() => {
@@ -28,6 +29,7 @@ function App() {
     <div className=" App">
       <div class="green-blurred-div"></div>
       <div class="green-blurred-div-right"></div>
+      <Frame />
       <Header />
       <Home />
       <Cards />
@@ -37,8 +39,9 @@ function App() {
       <Champion />
       <Quiz />
       <Cardswipe />
-      <Blog />
       <Stories />
+      <Blog />
+
       <Product />
       <Comment />
       <Social />

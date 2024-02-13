@@ -1,8 +1,18 @@
+@font-face {
+    
+  font-family: myfontThin;
+  
+  src: url(../../../../RecklessThin.ttf);
+}
+
+.font-thin{
+  font-family: myfontThin;
+}
 .contact-content{
     background-color: #F9F9F9;
     border-radius: 2rem;
     border: 1px #EAEAEA solid;
-    gap: 3rem;
+    gap: 1rem;
     justify-content: center;
 }
 
@@ -52,6 +62,9 @@ input{
     transform: scale(1.05);
   }
   
+  .contact-title{
+    font-size: var(--quiz-title);
+  }
 
   .searchInput {
     border: none;

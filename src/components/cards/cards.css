@@ -65,6 +65,8 @@
 }
 
 
+
+
 .hover:hover{
     transform: scale(1.04);
 }
@@ -77,19 +79,16 @@
     transform: scale(1.1) rotate(4deg); /* Adjust the degree of rotation as needed */
 }
 
-  @media screen and (max-width: 1650px){
+  @media screen and (max-width: 1550px){
     .card-container {
       
         max-width: 100%; /* Ensure the container is the positioning context */  
       }
-    
-    
-}
-
-@media screen and (max-width: 1650px){
-    .scale{
+      .scale{
         transform: scale(1);
       }
     
     
 }
+
+

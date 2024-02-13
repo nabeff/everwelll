@@ -1,9 +1,20 @@
+@font-face {
+    font-family: myfontsemi;
+    src: url(../../../../RecklessBold.ttf);
+    
+  }
+  
+.title-home{
+    font-family: myfontsemi;
+    font-size: var(--big-font-size);
+}
 .home-section {
     position: relative;
     background: rgb(72, 135, 187);
     background: linear-gradient(180deg, rgba(141,204,255,1) 0%, rgba(255,255,255,1) 100%);
-    transition: background-color 0.7s ease-in-out;
+    transition: background 0.7s ease-in-out; /* Updated to transition the entire background property */
 }
+
 
 .home-section.clicked {
     transition-delay: 1s; /* Changed the transition delay to 1 second */
@@ -22,17 +33,13 @@
 .home-container {
     display: flex;
     align-items: center;
-    gap: 5rem;
+    
     justify-content: center;
     padding: 3rem;
 }
 
-.title {
-    font-size: var(--big-font-size);
-    margin-bottom: 2rem;
-    color: #000;
-}
 
+  
 .button {
     background-color: #01390C;
     padding: 1rem 3rem 1rem 3rem;
@@ -103,6 +110,37 @@
     transform: scale(1.2);
 }
 
+.home-intro{
+    transform: scale(1.2);
+}
+
+
+.green-blurred-div-home {
+    position: absolute;
+    bottom: -120px;
+    left: -96px;
+    width: 40%;
+    height: 35%;
+    background-color: #D6FFDD; 
+    filter: blur(85px);
+    z-index: 999;
+  }
+  
+  .index{
+    z-index: 999;
+  }
+  
+  .green-blurred-div-right-home {
+    position: absolute;
+    bottom: -120px;
+    right: -96px;
+    width: 38%;
+    height: 41%;
+    background-color: #D6FFDD; /* Green with 50% opacity */
+    filter: blur(85px); /* Increased blur radius */
+    z-index: 999; /* Ensure it's behind other content */
+  }
+
 @media screen and (max-width: 1600px) {
     .products {
         display: none;
@@ -112,6 +150,7 @@
 @media screen and (max-width: 992px) {
     .home-container {
         flex-direction: column-reverse;
+        gap: 5rem;
     }
 
     .home {

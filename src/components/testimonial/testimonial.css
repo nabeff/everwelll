@@ -5,9 +5,9 @@
     background-color: #89F09C;
     height: 100%;
     width: 100%;
-    padding: 3rem;
-    gap: 2rem;
-    border-radius: 14rem 1rem 1rem 1rem;
+    padding: 4rem;
+    gap: 5rem;
+    border-radius: 16rem 1rem 1rem 1rem;
 }
 
 .adjust{
@@ -17,10 +17,9 @@
 
 .title-testimonial{
     color: #01390C;
-    font-size: var(--big-font-size);
-
-    
+    font-size: var(--big-font-size);  
 }
+
 .align-items{
     align-content: center;
 }
@@ -32,7 +31,7 @@
 .box{
     height: 100%;
     width: 100%;
-    gap: 1rem;
+    gap: 1.5rem;
     text-align: center;
    
 }
@@ -65,6 +64,7 @@
 
 .testimonial-padding{
     padding: 2rem;
+    background: white;
    }
 
 @media screen and (max-width: 1310px){

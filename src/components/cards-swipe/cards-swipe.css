@@ -60,7 +60,7 @@
 }
 
 .desc{
-    font-weight: 700;
+   
     margin-bottom: 1rem;
     color: black;
 }
@@ -106,7 +106,7 @@
 .button-center{
     display: flex;
     
-    margin-top: 6rem;
+    margin-top: 3rem;
 }
 
 .section_title:before {

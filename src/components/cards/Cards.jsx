@@ -25,7 +25,7 @@ const Cards = () => {
   return (
     <section className='section cardd'>
       
-      <div className="water-container water" >
+      <div className="water-container water index" >
         <img src={water} alt="Water" className="water-image" data-aos="zoom-out-left" data-aos-duration="3000" />
       </div>
 
@@ -35,7 +35,7 @@ const Cards = () => {
 
       <div className='section_title flex' data-aos="zoom-in">
 
-        <h1  >Wellness Wonders: Explore Our Collection</h1>
+        <h1 className='title black'>Wellness Wonders: Explore Our Collection</h1>
       </div>
        
 
@@ -65,7 +65,7 @@ const Cards = () => {
       >
         <SwiperSlide className=' flex-col '>
 
-          <div className='radius blue p2 hover'>
+          <div className='radius blue p1 hover'>
 
           <div>
             <img src={detox} alt="" />
@@ -73,7 +73,7 @@ const Cards = () => {
           
           <div className='flex-col card-content'>
            
-            <h3 className='bold'>
+            <h3 className=''>
                Lung Detox: "Lung Cleanser"
             </h3>
 
@@ -92,7 +92,7 @@ const Cards = () => {
 
         <SwiperSlide className=' flex-col scale '>
 
-        <div className='radius pink p4 hover'>
+        <div className='radius pink p2 hover'>
 
           <div>
             <img src={focus} alt="" />
@@ -100,7 +100,7 @@ const Cards = () => {
 
           <div className='flex-col card-content'>
             
-            <h3 className='bold'>
+            <h3 className=''>
                Lung Detox: "Lung Cleanser"
             </h3>
 
@@ -117,7 +117,7 @@ const Cards = () => {
         </SwiperSlide>
 
         <SwiperSlide className='flex-col '>
-  <div className='radius yellow p2 hover relative-position'>
+  <div className='radius yellow p1 hover relative-position'>
 
     <div className='corner-image-container'>
       <img src={newi} alt="" className='card-corner-image' />
@@ -127,8 +127,8 @@ const Cards = () => {
       <img src={imunity} alt="" />
     </div>
 
-    <div className='flex-col card-content'>
-      <h3 className='bold'>Lung Detox: "Lung Cleanser"</h3>
+    <div className='flex-col card-content '>
+      <h3 className=''>Lung Detox: "Lung Cleanser"</h3>
       <div className='flex-rating gap1 align-items'>
         <img src={stars} alt="" /><span className='rate'>4.5/5</span>
       </div>
@@ -139,10 +139,7 @@ const Cards = () => {
   </div>
       </SwiperSlide>
 
-
-
-
-        </Swiper>
+    </Swiper>
 
   
       <div className='button-center center' data-aos="zoom-in">

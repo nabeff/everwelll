@@ -7,6 +7,7 @@ import twitter from "../../assets/icons/twitter.png"
 import google from "../../assets/icons/google.png"
 import instagram from "../../assets/icons/instagram.png"
 import paypal from "../../assets/icons/paypal.png"
+import everwelw from "../../assets/images/everwel-white.png"
 
 import "./footer.css"
 
@@ -38,7 +39,7 @@ const Footer = () => {
 
             <div className='footer-info flex-col'>
                 <div className='flex-col'>
-                <h1 className='titles white'>everwell</h1>
+                <img className='m1' src={everwelw} alt="" />
                 <p className='white paragraph apple '>Elevate your inner wellness.</p>
                 </div>
 

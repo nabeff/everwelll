@@ -6,36 +6,38 @@ import "./infine.css"
 const Infinite = () => {
   return (
     <div class="logos">
-      <div class="logos-slide">
+
+      <div class="logos-slide flex-col ">
         
       <img src={botle} alt="" />
-      <img src={everwell} alt="" />
+      <img className='above' src={everwell} alt="" />
         <img src={botle} alt="" />
-        <img src={everwell} alt="" />
+        <img className='above' src={everwell} alt="" />
         <img src={botle} alt="" />
-        <img src={everwell} alt="" />
+        <img className='above' src={everwell} alt="" />
         <img src={botle} alt="" />
-        <img src={everwell} alt="" />
+        <img className='above' src={everwell} alt="" />
         <img src={botle} alt="" />
-        <img src={everwell} alt="" />
+        <img className='above' src={everwell} alt="" />
         <img src={botle} alt="" />
-        <img src={everwell} alt="" />
+        <img className='above' src={everwell} alt="" />
               </div>
 
-      <div class="logos-slide">
+      <div class="logos-slide flex-col">
       <img src={botle} alt="" />
-      <img src={everwell} alt="" />
+      <img className='above' src={everwell} alt="" />
         <img src={botle} alt="" />
-        <img src={everwell} alt="" />
+        <img className='above' src={everwell} alt="" />
         <img src={botle} alt="" />
-        <img src={everwell} alt="" />
+        <img className='above' src={everwell} alt="" />
         <img src={botle} alt="" />
-        <img src={everwell} alt="" />
+        <img className='above' src={everwell} alt="" />
         <img src={botle} alt="" />
-        <img src={everwell} alt="" />
+        <img className='above' src={everwell} alt="" />
         <img src={botle} alt="" />
-        <img src={everwell} alt="" />
+        <img className='above' src={everwell} alt="" />
       </div>
+
     </div>
   )
 }
