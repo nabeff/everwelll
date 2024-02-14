@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import "./home.css";
-import show1 from "../../assets/images/show1.svg";
-import show2 from "../../assets/images/show2.svg";
-import show3 from "../../assets/images/show3.svg";
+import show1 from "../../assets/images/cleanser.png";
+import show2 from "../../assets/images/min.png";
+import show3 from "../../assets/images/imun.png";
 import vita from "../../assets/images/vita.svg";
 import min from "../../assets/images/min.svg";
 import water3 from "../../assets/icons/water3.svg";
@@ -21,7 +21,7 @@ const Home = () => {
   
     setTimeout(() => {
       centerImage.style.opacity = 1; // Trigger the transition
-    }, 600); // Short delay to ensure the transition starts
+    }, 700); // Short delay to ensure the transition starts
   
     setBackgroundColorIndex((prevIndex) => (prevIndex + 1) % 3);
   
@@ -31,7 +31,7 @@ const Home = () => {
         homeSection.classList.remove('clicked');
         centerImage.classList.remove('image-transition'); // Remove the transition class to reset state
       }, 700); // Delay to match the transition duration
-    }, 1000);
+    }, 700);
   };
   
   

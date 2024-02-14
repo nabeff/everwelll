@@ -39,7 +39,7 @@ const Footer = () => {
 
             <div className='footer-info flex-col'>
                 <div className='flex-col'>
-                <img className='m1' src={everwelw} alt="" />
+                <img className='footer-logo m1' src={everwelw} alt="" />
                 <p className='white paragraph apple '>Elevate your inner wellness.</p>
                 </div>
 

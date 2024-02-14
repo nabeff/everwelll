@@ -60,7 +60,7 @@ background: linear-gradient(180deg, rgba(141,204,255,1) 0%, rgba(255,255,255,1) 
 
 .green-blurred-div-home-panel {
   position: absolute;
-  bottom: -120px;
+  bottom: -170px;
   left: -96px;
   width: 40%;
   height: 35%;
@@ -71,7 +71,7 @@ background: linear-gradient(180deg, rgba(141,204,255,1) 0%, rgba(255,255,255,1) 
 
 .green-blurred-div-right-home-panel {
   position: absolute;
-  bottom: -150px;
+  bottom: -170px;
   right: -96px;
   width: 40%;
   height: 31%;
