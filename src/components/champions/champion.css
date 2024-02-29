@@ -1,8 +1,8 @@
 @font-face {
     
-    font-family: myfontlight;
+    font-family: myfontthint;
     
-    src: url(../../../../RecklessLight.ttf);
+    src: url(../../../../RecklessThin.ttf);
   }
   
 .champion-container{
@@ -23,12 +23,16 @@
       left: 0;
 }
 
+.zindex{
+    z-index: 999;
+  }
+  
 .water-image4 {
     width: 300px;
 }
 
 .champion-title{
-    font-family: myfontlight;
+    font-family: myfontthint;
     font-size: var(--bigg-font-size);
 }
          

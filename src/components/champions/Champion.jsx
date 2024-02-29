@@ -14,7 +14,7 @@ const Champion = () => {
               <img className='water-image4' src={water4}  />
           </div>
 
-            <div className='panel-display' data-aos="zoom-out-right" data-aos-duration="1100">
+            <div className='panel-display zindex' data-aos="zoom-out-right" data-aos-duration="1100">
             <img src={right} alt="" className='opacity'/>
             </div>
 
@@ -23,7 +23,7 @@ const Champion = () => {
                 <button className='button'>View Reviews</button>
             </div>
 
-            <div className='panel-display' data-aos="zoom-out-left" data-aos-duration="1100">
+            <div className='panel-display zindex' data-aos="zoom-out-left" data-aos-duration="1100">
             <img src={left} alt="" className='opacity'/>
             </div>
         </div>

@@ -26,15 +26,15 @@ const Panel = () => {
 
         <div className='flex container-panel'>
 
-             <div className='flex-col container-panel-desc'>
-                <h1 className='panel-title green'>Immunity:<br/> Immune Vitality</h1>
-                <p className='paragraph black '>Meet the superhero of your well-being journey:
-                 'Immune Vitality.' It's your trusty sidekick in the battle 
-                 for a strong and robust immune system. 
-                 Whether you're facing the sneezes or just want to stay in your prime,
-                  'Immune Vitality' has your back. With 'Immune Vitality,
-                  ' you're not just well; you're invincible!</p>
-                  <button className='button-big'>Buy Now</button>
+        <div className='flex-col container-panel-desc'>
+        <h1 className='big-title'>Immunity:<br/> Immune Vitality</h1>
+        <p className='paragraph black'>Meet the superhero of your well-being journey:
+         'Immune Vitality.' It's your trusty sidekick in the battle 
+         for a strong and robust immune system. 
+         Whether you're facing the sneezes or just want to stay in your prime,
+          'Immune Vitality' has your back. With 'Immune Vitality,
+          ' you're not just well; you're invincible!</p>
+          <button className='button-big'>Buy Now</button>
             </div>
 
             <div className='flex flex-panel'>
@@ -57,7 +57,7 @@ const Panel = () => {
           'Immune Vitality' has your back. With 'Immune Vitality,
           ' you're not just well; you're invincible!</p>
           <button className='button-big'>Buy Now</button>
-    </div>
+            </div>
 
     <div className='flex flex-panel'>
         <img src={pan3} alt="" />

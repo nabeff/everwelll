@@ -60,25 +60,26 @@ background: linear-gradient(180deg, rgba(141,204,255,1) 0%, rgba(255,255,255,1) 
 
 .green-blurred-div-home-panel {
   position: absolute;
-  bottom: -170px;
-  left: -96px;
+  bottom: -150px;
+  left: -56px;
   width: 40%;
   height: 35%;
   background-color: #D6FFDD; 
-  filter: blur(85px);
-  z-index: 999;
+  filter: blur(65px);
+  z-index: 800;
 }
 
 .green-blurred-div-right-home-panel {
   position: absolute;
-  bottom: -170px;
-  right: -96px;
+  bottom: -150px;
+  right: -56px;
   width: 40%;
   height: 31%;
   background-color: #D6FFDD; /* Green with 50% opacity */
-  filter: blur(85px); /* Increased blur radius */
-  z-index: 999; /* Ensure it's behind other content */
+  filter: blur(65px); /* Increased blur radius */
+  z-index: 800; /* Ensure it's behind other content */
 }
+
 
 
 .container-panel-desc {

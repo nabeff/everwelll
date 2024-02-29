@@ -15,7 +15,7 @@ const Quiz = () => {
                 <button className='button-white'>Take the Quiz</button>
             </div>
 
-            <div className='flex '>
+            <div className='flex quiz-img'>
                 <img src={quiz} alt="" />
             </div>
             </div>

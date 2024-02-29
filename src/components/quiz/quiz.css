@@ -60,3 +60,11 @@
     
     
 }
+
+@media screen and (max-width: 600px){
+    
+    .quiz-img img{
+        width: 400px;
+    }
+    
+}
