@@ -33,7 +33,7 @@ const Cardswipe = () => {
     modifier: 1,
     slideShadows: false,
   }}
-  navigation={true} // Enable navigation arrows
+// Enable navigation arrows
   pagination={false}
   modules={[EffectCoverflow]} // Include EffectCoverflow module
   className="mySwiper"

@@ -78,6 +78,15 @@ option{
     
 }
 
+.list-flex li {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.list-flex li:hover {
+    opacity: 1;
+}
+
 .titles{
     font-size: var(--bigg-font-size);
 }

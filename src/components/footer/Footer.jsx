@@ -39,14 +39,14 @@ const Footer = () => {
 
             <div className='footer-info flex-col'>
                 <div className='flex-col'>
-                <img className='footer-logo m1' src={everwelw} alt="" />
+                <img className='footer-logo m1 cursor' src={everwelw} alt="" />
                 <p className='white paragraph apple '>Elevate your inner wellness.</p>
                 </div>
 
-                <div className='flex icon'>
-                    <img src={twitter} alt="" />
-                    <img src={facebook} alt="" />
-                    <img src={instagram} alt="" />
+                <div className='flex icon '>
+                    <img className='cursor' src={twitter} alt="" />
+                    <img className='cursor' src={facebook} alt="" />
+                    <img className='cursor' src={instagram} alt="" />
                 </div>
             </div>
 
@@ -54,7 +54,7 @@ const Footer = () => {
 
                 <div className='list-flex flex-col'>
 
-                    {!isMobile && <h3 className='drop-title white '>Company</h3>}
+                    {!isMobile && <h3 className='drop-title white cursor'>Company</h3>}
 
                     <div className={`footer-list white ${isMobile ? 'dropdown' : ''}`}>
 
@@ -81,7 +81,7 @@ const Footer = () => {
 
                 <div className='list-flex flex-col'>
 
-                    {!isMobile && <h3 className='drop-title white'>Help</h3>}
+                    {!isMobile && <h3 className='drop-title white cursor'>Help</h3>}
 
                     <div className={`footer-list white ${isMobile ? 'dropdown' : ''}`}>
                 {/* Dropdown items */}
@@ -108,7 +108,7 @@ const Footer = () => {
 
                 <div className='list-flex flex-col'>
 
-                    {!isMobile && <h3 className='drop-title white'>FAQ</h3>}
+                    {!isMobile && <h3 className='drop-title white cursor'>FAQ</h3>}
 
                     <div className={`footer-list white ${isMobile ? 'dropdown' : ''}`}>
                 {/* Dropdown items */}
@@ -144,11 +144,11 @@ const Footer = () => {
 
            
             <div className='flex '>
-                    <img src={visa} alt="" />
-                    <img src={banque} alt="" />
-                    <img src={paypal} alt="" />
-                    <img src={apple} alt="" />
-                    <img src={google} alt="" />
+                    <img className='cursor' src={visa} alt="" />
+                    <img className='cursor' src={banque} alt="" />
+                    <img className='cursor' src={paypal} alt="" />
+                    <img className='cursor' src={apple} alt="" />
+                    <img className='cursor' src={google} alt="" />
                    
                 </div>
             

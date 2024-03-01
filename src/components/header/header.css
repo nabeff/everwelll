@@ -74,6 +74,7 @@
       text-align: center;
       gap: 1rem;
       background: #01390C;
+      
       z-index: 1000;
       left: 0;
       width: 100%;
@@ -84,6 +85,7 @@
   
     .Navbar > .nav-items > a::before {
         background: transparent;
+        
     }
   
     .Navbar > .nav-items.open {
